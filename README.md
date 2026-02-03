@@ -13,9 +13,25 @@ I am a Master’s student in Computer Vision with a background in Computer Scien
    *Classical Image Processing · ROI Extraction · Thresholding · Temporal Analysis*  
    Semi-automatic pipeline for tear film break-up detection in fluorescein eye image sequences, developed for an academic image processing course.  
    → `FIPA-roi-extraction/`
+   
+4. **Image Description & Modeling — Texture Analysis (HLBP)**
 
-3. Texture-Based Image Classification using Homogeneous Local Binary Patterns (HLBP)
-   (Classical Image Processing / Feature Engineering / k-NN, SVM)
+*Context: Academic project (Image Description and Modeling)*
+*Type: Individual project*  
+*Techniques:** Handcrafted texture features, classical classification*
+
+This project focuses on **texture-based image description** using
+**Histogram Local Binary Patterns (HLBP)** for medical image tiles.
+
+Key highlights:
+- Manual feature extraction (no deep learning)
+- Texture descriptors (LBP / HLBP)
+- Statistical analysis of texture distributions
+- Classical classifier evaluation
+- Strong emphasis on interpretability and feature design
+
+  →`IDM-texture-analysis/`
+
 
 
 ## Technical Skills
