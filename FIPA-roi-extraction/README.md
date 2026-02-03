@@ -60,4 +60,6 @@ Due to dataset usage restrictions, raw images and videos are not included in thi
 ## Academic Context
 This project was completed following official course specifications and evaluation criteria, including ROI extraction accuracy, break-up detection performance, and technical reporting.
 
+## Data Privacy Note
+This repository contains a demonstration version of the ROI extraction pipeline. Due to dataset usage restrictions, only a representative sample frame is visualized. The full implementation was developed and evaluated on the complete dataset offline.
 
