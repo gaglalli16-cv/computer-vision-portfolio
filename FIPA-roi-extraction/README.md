@@ -114,12 +114,12 @@ To reduce temporal instability caused by eye motion:
 
 Upper and lower eyelid regions are removed using **sequence-specific cut parameters**:
 
-```python
+python
 SEQUENCE_PARAMS = {
   "but1": {"top_cut": 0.60, "bottom_cut": 0.00},
   "but2": {"top_cut": 0.00, "bottom_cut": 0.05},
   ...
-}´´´
+}
 
 Upper and lower eyelid regions are removed using manually defined, sequence-specific cropping parameters. These parameters were selected based on visual inspection to minimize eyelash and eyelid occlusion while preserving the tear film region.
 
