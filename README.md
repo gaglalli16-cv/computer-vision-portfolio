@@ -4,5 +4,5 @@ I am a Master’s student in Computer Vision with a background in Computer Scien
 
 ## Projects
 1. Wildlife Species Image Classification (PyTorch, ResNet50, Albumentations)
-2. FIFA IROI Extraction (Image Processing / ROI)
+2. Fundamentals of Image Processing and Analysis (FIPA) IROI Extraction (Image Processing / ROI)
 3. Research Project (Computer Vision / ML)
