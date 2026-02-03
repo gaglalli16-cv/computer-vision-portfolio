@@ -14,10 +14,9 @@ I am a Master’s student in Computer Vision with a background in Computer Scien
    Semi-automatic pipeline for tear film break-up detection in fluorescein eye image sequences, developed for an academic image processing course.  
    → `FIPA-roi-extraction/`
 
-3. **Research Project**  
-   *Computer Vision · Machine Learning*  
-   Research-oriented project focusing on image analysis and experimental evaluation.  
-   → `research-project/`
+3. Texture-Based Image Classification using Homogeneous Local Binary Patterns (HLBP)
+   (Classical Image Processing / Feature Engineering / k-NN, SVM)
+
 
 ## Technical Skills
 
