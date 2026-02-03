@@ -60,3 +60,11 @@ This project addresses these challenges by designing a robust deep learning pipe
 
 ## Academic Report
 A detailed technical report describing the full methodology, experiments, and analysis is included in this repository.
+
+## Contribution
+This project was completed as a group project. My individual contributions included:
+- Designing the data pipeline and site-aware train/validation split
+- Implementing data augmentation and class weighting
+- Model training, evaluation, and analysis
+- Writing and organizing significant portions of the technical report
+
