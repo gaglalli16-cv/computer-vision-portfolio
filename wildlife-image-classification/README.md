@@ -61,6 +61,22 @@ This project addresses these challenges by designing a robust deep learning pipe
 ## Academic Report
 A detailed technical report describing the full methodology, experiments, and analysis is included in this repository.
 
+## Visualizations
+
+### Dataset and Class Analysis
+![Class Distribution](images/class_distribution.png)
+![Site Distribution](images/site_distribution.png)
+![Train vs Validation Split](images/train_val_distribution.png)
+
+### Data Augmentation
+![Augmented Samples](images/augmented_batch.png)
+
+### Model Training Performance
+![Training History](images/resnet50_baseline_0121_1154_history.png)
+
+### Prediction Analysis
+![Prediction Distribution](images/prediction_distributions.png)
+
 ## Contribution
 This project was completed as a group project. My individual contributions included:
 - Designing the data pipeline and site-aware train/validation split
