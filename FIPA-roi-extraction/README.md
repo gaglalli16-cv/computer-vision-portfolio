@@ -119,11 +119,11 @@ SEQUENCE_PARAMS = {
   "but1": {"top_cut": 0.60, "bottom_cut": 0.00},
   "but2": {"top_cut": 0.00, "bottom_cut": 0.05},
   ...
-}
+}´´´
 
 Upper and lower eyelid regions are removed using manually defined, sequence-specific cropping parameters. These parameters were selected based on visual inspection to minimize eyelash and eyelid occlusion while preserving the tear film region.
 
-⚠️ **Note on Automation**  
+**Note on Automation**  
 This step makes the pipeline **semi-automatic**. The eyelid removal parameters are not automatically estimated and must be defined once per sequence. This limitation is explicitly acknowledged in the academic report and preserved here to maintain methodological consistency.
 
 ---
