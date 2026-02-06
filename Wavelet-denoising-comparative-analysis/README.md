@@ -94,18 +94,24 @@ Wavelet-based denoising consistently outperforms Gaussian blur in Gaussian noise
 ## Project Structure
 
 images/
-├── histology/
-├── products/
-├── radiology/
-├── noisy_images/
-├── denoised_images/
+│
+├── histology/          # Clean histology images
+├── products/           # Clean product images
+├── radiology/          # Clean radiology images
+├── noisy_images/       # Generated noisy images
+└── denoised_images/    # Outputs from denoising methods
+
 
 results/
-├── metrics_wavelet_comparison_*.csv
-├── Table_Best_*.csv
-├── visual_*.png
+│
+├── metrics_wavelet_comparison_*.csv   # Raw evaluation metrics
+├── Table_Best_*.csv                   # Best-performing methods (formatted)
+└── visual_*.png                       # Visualization outputs
 
-- wavelet_denoising.py
-- comparison.py
-- analyze_results.py
-- Wavelet_Denoising_Analysis.ipynb
+
+Scripts
+│
+├── wavelet_denoising.py      # Main denoising pipeline
+├── comparison.py             # Generates summary comparison tables
+├── analyze_results.py        # Analysis + plots
+└── Wavelet_Denoising_Analysis.ipynb   # Notebook version (visual + experiments)
