@@ -43,10 +43,26 @@ Key highlights:
 
 ---
 
+### 4. Wavelet-Based Image Denoising  
+**Wavelet Transform · Signal Processing · Image Restoration · Quantitative Evaluation**
+
+This project investigates classical **wavelet-based image denoising** techniques across multiple datasets and noise conditions.
+
+Key highlights:
+- Evaluated multiple wavelet families (Daubechies, Symlets, Coiflets, etc.)
+- Tested under Gaussian, Speckle, and Salt & Pepper noise
+- Quantitative comparison using **PSNR, SSIM, and MSE**
+- Visual and statistical performance analysis
+- Focus on classical, interpretable image restoration methods
+
+→ `Wavelet-denoising-comparison/`
+
+---
+
 ## Technical Skills
 
 - **Languages:** Python, MATLAB  
-- **Computer Vision:** OpenCV, classical image processing, ROI extraction  
+- **Computer Vision:** OpenCV, classical image processing, ROI extraction, texture analysis  
 - **Deep Learning:** PyTorch, CNNs, transfer learning  
-- **Image Analysis:** Thresholding, morphology, temporal analysis  
+- **Image Analysis:** Thresholding, morphology, denoising, temporal analysis  
 - **Tools:** Git, Jupyter, NumPy, Matplotlib
