@@ -32,8 +32,8 @@ The objective of this project is to design and evaluate a **classical, explainab
 The dataset consists of **fluorescein eye image sequences**, organized by subject/sequence.
 
 ### Folder Structure
-
-´´´dataset/
+´´´
+dataset/
 ├── but1/
 │ ├── but1_frameXXXX_breakup0.png
 │ ├── but1_frameXXXX_breakup1.png
