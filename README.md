@@ -1,9 +1,6 @@
 # Computer Vision Portfolio — Gagandeep Kaur
-
-I am a Master’s student in Computer Vision with a background in Computer Science and experience in industrial automation systems. This repository contains selected computer vision projects completed as part of academic coursework and independent study.
-
+I am a Master's student in Computer Vision with a background in Computer Science and experience in industrial automation systems. This repository contains selected computer vision projects completed as part of academic coursework and independent study.
 ---
-
 ## Projects
 
 ### 1. Wildlife Species Image Classification  
@@ -59,8 +56,27 @@ Key highlights:
 
 ---
 
-## Technical Skills
+### 5. Facial Emotion Recognition — Fine-tuned ResNet-18 on FER-2013  
+**PyTorch · ResNet-18 · Transfer Learning · Class Imbalance · FER-2013**
 
+*Context:* Academic project (Human Affective Response)  
+*Type:* Individual project
+
+Facial expression recognition using two-phase transfer learning on the FER-2013 dataset (35,887 grayscale images, 7 emotion classes). A ResNet-18 backbone pretrained on ImageNet is first adapted with a frozen backbone, then fully fine-tuned at a lower learning rate to preserve pretrained representations.
+
+Key highlights:
+- Two-phase training strategy: head-only (5 epochs) → full fine-tuning (10 epochs)
+- Inverse-frequency class weighting to handle severe class imbalance (disgust: 436 samples vs. happy: 7,215)
+- **69.3% test accuracy** across 7 emotion categories
+- Strong performance on happy (F1=0.881) and surprise (F1=0.813)
+- Cosine annealing scheduler and early stopping with best-checkpoint recovery
+- Full evaluation: per-class precision/recall/F1, confusion matrix, softmax visualisations
+
+→ `facial-emotion-recognition/`
+
+---
+
+## Technical Skills
 - **Languages:** Python, MATLAB  
 - **Computer Vision:** OpenCV, classical image processing, ROI extraction, texture analysis  
 - **Deep Learning:** PyTorch, CNNs, transfer learning  
