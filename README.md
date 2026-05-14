@@ -1,5 +1,7 @@
-# Computer Vision Portfolio — Gagandeep Kaur
-I am a Master's student in Computer Vision with a background in Computer Science and experience in industrial automation systems. This repository contains selected computer vision projects completed as part of academic coursework and independent study.
+## Gagandeep Kaur — Computer Vision Portfolio
+
+MSc Computer Vision student with a background in Computer Science and experience in industrial automation systems. This repository contains selected projects from academic coursework and independent study.
+
 ---
 ## Projects
 
